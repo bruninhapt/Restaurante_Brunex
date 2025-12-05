@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const connectDB = require("./Models/db");
-require('dotenv').config({ quiet: true });
+require("dotenv").config({ quiet: true });
 
 // Middleware JSON
 app.use(express.json());
@@ -18,4 +18,6 @@ const menuRoutes = require("./Controllers/menu_do_dia");
 // Proteger apenas as rotas do menu
 app.use("/menu", authBasic, menuRoutes);
 
-app.listen(process.env.PORT, () => console.log(`Servidor a correr na porta ${process.env.PORT}...`));
+app.listen(process.env.PORT, () =>
+	console.log(`Servidor a correr na porta ${process.env.PORT}...`)
+);
