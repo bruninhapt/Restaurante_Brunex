@@ -10,6 +10,8 @@ async function authBasic(req, res, next) {
     }
 
     try {
+        // garantir que a BD está ligada
+        await connectDB();
         // 2) Converter Base64 para plain text
 
         const base64 = header.split(" ")[1];
