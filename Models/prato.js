@@ -41,5 +41,5 @@ const pratoSchema = new mongoose.Schema({
 
 }, { timestamps: true });
 
-module.exports = mongoose.model("Prato", pratoSchema, "restaurante_menu");
+module.exports = mongoose.model("Prato", pratoSchema, "Pratos");
 
