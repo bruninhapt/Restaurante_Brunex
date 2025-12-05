@@ -1,4 +1,4 @@
-const connectDB = require("./db");
+const connectDB = require("../Models/db");
 const User = require("../Models/user");
 
 
