@@ -1,0 +1,5 @@
+{"codigo":"P001","nome":"Costelas de Porco","categoria":"Carne","tipo":"normal"}
+{"codigo":"P002","nome":"Francesinha","categoria":"Sandes","tipo":"normal"}
+{"codigo":"P003","nome":"Bife da Vazia","categoria":"Carne","tipo":"normal"}
+{"codigo":"P004","nome":"Picanha à Brasileira","categoria":"Carne","tipo":"normal"}
+{"codigo":"P005","nome":"Polvo à lagareiro","categoria":"Peixe","tipo":"normal"}
