@@ -1,4 +1,6 @@
+const connectDB = require("./db");
 const User = require("../Models/user");
+
 
 async function authBasic(req, res, next) {
     const header = req.headers.authorization;
